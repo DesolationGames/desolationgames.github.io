@@ -1,0 +1,95 @@
+<!--   DESOLATION GAMES WEBSITE    -->
+<!-- Contact page by Samuel Tritscher -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Desolation Games | Home</title>
+    <!-- Style Sheets -->
+    <link rel="stylesheet" type="text/css" href="Styles/MainStyle.css">
+	 
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:500|Raleway" rel="stylesheet">
+	<!-- Font awsome stylesheet -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+
+    <!-- The header image above the navugation bar -->
+    <div id="header">
+      <img src="Images/headerImage.png" alt="Desolation Games">
+    </div>
+
+    <!-- NAVIGATION BAR -->
+    <div class="nav">
+      <div class="links">
+        <ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li class="dropdown">
+				<a href="games.html" class="dropbtn">Games <i class="fa">&#xf0d7;</i></a>
+				<div class="dropdowncontent">
+					<a href="dodge.html">Dodge</a>
+					<a href="upcoming.html">Upcoming</a>
+				</div>
+			</li>
+          <li style="float:right"><a id="active" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+	<!-- CONTENT -->
+	<div id="content">
+	
+		<h1 class="title">Contact</h1>
+		
+		<p>Have a question? Want to offer some feedback? Send us an email and we will get right back to you. Feel free to send us an email anytime.</p>
+		
+		<hr style="width:90%; margin-top:20px; margin-bottom:20px;">
+		
+		<h3>Use the form below to send us an email:</h3>
+		
+		<div class="contact">
+			<form action="mailto:desolationgamesdev@gmail.com" method="post" enctype="text/plain">
+				Name:<br>
+				<input type="text" name="name" placeholder="Your name.." autocomplete="off" required><br>
+				E-mail:<br>
+				<input type="email" name="email" placeholder="Your E-mail..." autocomplete="off" required><br>
+				Message:<br>
+				<textarea name="message" placeholder="Your message..." required></textarea>
+				<br>
+			
+				<input type="submit" value="Send">
+				<input type="reset" value="Reset">
+			</form>
+		</div>
+		
+		<p>Alternatively, you can send an email to <a href="mailto:desolationgamesdev@gmail.com">desolationgamesdev@gmail.com</a> and let us know what you think.</p>
+		
+	</div>
+	
+	<!-- Footer -->
+	<div id="footer">
+		<div class="f-text">
+			<p>&copy; 2017 Desolation Games</p>
+			<p>This website was created by Samuel Tritscher</p>
+		</div>
+	 
+		<div class="f-social">
+			<i class="fa"><a href="https://plus.google.com/106940285459224409788">&#xf0d5;</a></i>
+			<i class="fa"><a href="#facebook">&#xf09a;</a></i>
+			<i class="fa"><a href="https://play.google.com/store/apps/dev?id=6355186617919590690">&#xf11b;</a></i>
+		</div>
+	
+		<div class="f-button">
+			<a href="about.html">About</a>
+			<a href="contact.html">Contact</a>
+		</div>
+	</div>
+
+  </body>
+
+</html>
