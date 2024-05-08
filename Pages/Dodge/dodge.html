@@ -1,0 +1,181 @@
+<!--   DESOLATION GAMES WEBSITE    -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Desolation Games | Home</title>
+    <!-- Style Sheets -->
+    <link rel="stylesheet" type="text/css" href="../../Styles/MainStyle.css">
+	
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:500|Raleway" rel="stylesheet">
+	<!-- Font awsome stylesheet -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+
+    <!-- The header image above the navigation bar -->
+    <div id="header">
+      <img src="../../Images/headerImage.png" alt="Desolation Games">
+    </div>
+
+    <!-- NAVIGATION BAR -->
+    <div class="nav">
+      <div class="links">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li class="dropdown">
+				<a href="../games.html" class="dropbtn">Games <i class="fa">&#xf0d7;</i></a>
+				<div class="dropdowncontent">
+					<a href="#dodge"  id="active">Dodge</a>
+					<a href="../upcoming.html">Upcoming</a>
+				</div>
+			</li>
+          <li style="float:right"><a href="../contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <!--CONTENT -->
+    <div id="content">
+    
+    	<h1 class="title">Dodge</h1>
+    	
+    	<div class="logo" style="">
+    		<a href="https://play.google.com/store/apps/details?id=com.desolationgames.dodge.android" target="_blank" title="Go to Play Store"><img src="../../Images/dodge-logo.png" alt="Dodge icon" ></a>
+				<p>The Dodge icon</p>
+    	</div>
+    	
+    	<div>
+    		<p style="font-size: 18px;"><strong>Dodge</strong> the oncoming enemies, <strong>Evade</strong> the Deadly squares and <strong>Claim</strong> the highscore.</p>
+    		<p>Dodge is a fun and exciting free game which will keep you entertained for hours.
+Use your finger to guide your player away from oncoming enemies and claim the highscore. Now including 4 unique Game Modes to chose from.</p>
+				<p><b>Install</b> and <b>play</b> our first ever Android game that we, Desolation Games, have created. It may not be the best game on the market but we are sure proud of it!</p>
+    	</div>
+    	
+    	<img class="image" src="../../Images/dodge-phone-ad.png" alt="Feature image for dodge">
+    	
+    	<h4>Features:</h4>
+    	<ul>
+    		<li>Use the touch screen to move your player or tilt the device in the 'Tilt' game mode</li>
+    		<li>Evade the oncoming squares and triangles</li>
+    		<li>Enter the shop to spice up your player</li>
+    		<li>Get the highest score and unlock all the Achievements</li>
+    		<li>Check who is the best at Dodge with Google Play leaderboards</li>
+    		<li>Enjoy the simple and smooth graphics</li>
+    	</ul>
+    	<p>Dodge is created by "Desolation Games" and contains no ads. Yep, its ad free!</p>
+    	
+    	<a href="https://play.google.com/store/apps/details?id=com.desolationgames.dodge.android&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank"><img style="width: 25%;" alt="Get it on Google Play" src="Images/google-play-badge.png"></a>
+    	
+    	<hr style="width:90%; margin-top:20px; margin-bottom:20px;">
+    	
+    	<h2>Screenshots:</h2>
+    	
+    	<div class="slideshow-container">
+ 		 		<div class="mySlides fade">
+    			<div class="numbertext">1 / 6</div>
+    				<img src="../../Images/screenshot-1.png" style="width:100%" alt="Screenshot of Dodge">
+  			</div>
+  			
+  			<div class="mySlides fade">
+    			<div class="numbertext">2 / 6</div>
+    				<img src="../../Images/screenshot-4.png" style="width:100%" alt="Screenshot of Dodge">
+  			</div>
+
+  			<div class="mySlides fade">
+    			<div class="numbertext">3 / 6</div>
+    				<img src="../../Images/screenshot-2.png" style="width:100%" alt="Screenshot of Dodge">
+  			</div>
+  			
+  			<div class="mySlides fade">
+    			<div class="numbertext">4 / 6</div>
+    				<img src="../../Images/screenshot-5.png" style="width:100%" alt="Screenshot of Dodge">
+
+  			</div>
+  			
+  			<div class="mySlides fade">
+    			<div class="numbertext">5 / 6</div>
+    				<img src="../../Images/screenshot-3.png" style="width:100%" alt="Screenshot of Dodge">
+  			</div>
+  			
+  			<div class="mySlides fade">
+    			<div class="numbertext">6 / 6</div>
+    				<img src="../../Images/screenshot-6.png" style="width:100%" alt="Screenshot of Dodge">
+  			</div>
+
+  			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<div style="text-align:center">
+  			<span class="dot" onclick="currentSlide(1)"></span>
+  			<span class="dot" onclick="currentSlide(2)"></span>
+  			<span class="dot" onclick="currentSlide(3)"></span>
+  			<span class="dot" onclick="currentSlide(4)"></span>
+  			<span class="dot" onclick="currentSlide(5)"></span>
+  			<span class="dot" onclick="currentSlide(6)"></span>
+			</div> 
+			
+			<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+				showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+				showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("dot");
+				
+				if (n > slides.length) {
+					slideIndex = 1
+				}
+				if (n < 1) {
+					slideIndex = slides.length
+				}
+				for (i = 0; i < slides.length; i++) {
+						slides[i].style.display = "none";
+				}
+				for (i = 0; i < dots.length; i++) {
+						dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " active";
+			}
+			</script>
+    	
+    	<p style="font-size:14px; margin-top:30px;">Google Play and the Google Play logo are trademarks of Google Inc.</p>
+    	
+    </div>
+	
+	<!-- Footer -->
+	<div id="footer">
+		<div class="f-text">
+			<p>&copy; 2017 Desolation Games</p>
+		</div>
+	 
+		<div class="f-social">
+			<i class="fa"><a href="https://play.google.com/store/apps/dev?id=6355186617919590690">&#xf11b;</a></i>
+		</div>
+	
+		<div class="f-button">
+			<a href="../about.html">About</a>
+			<a href="../contact.html">Contact</a>
+		</div>
+	</div>
+
+  </body>
+
+</html>
